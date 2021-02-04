@@ -1,0 +1,13 @@
+1 LET A 30000
+2 LET ARRAY[0] -910
+3 LET B 4
+4 LET OTHERARRAY[0] 5
+5 LET C 18
+6 LET ARRAY[1] -1
+7 LET D 2
+8 LET OTHERARRAY[1] 6
+9 LET ARRAY[2] 3
+10 PRINT "During what year did World of the Wars broadcast?"
+11 PRINT "Answer: "
+12 PRINT ((((A + ARRAY[0]) - (B * OTHERARRAY[0])) / ((C + ARRAY[1]) - (D * OTHERARRAY[1]))) / ARRAY[2])
+13 END

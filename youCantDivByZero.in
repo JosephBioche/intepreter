@@ -1,0 +1,11 @@
+1 LET A 1024
+2 LET B 2
+3 LET C 6
+4 LET D 4
+5 LET E 1
+6 GOSUB 9
+7 PRINT "You can totally divide by zero!"
+8 END
+9 PRINT "No, you CANT divide by zero!"
+10 PRINT (A / ((C / B) - (D - E)))
+11 RETURN
